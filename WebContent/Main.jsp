@@ -1,54 +1,110 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="utf-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.jsp/1.14.7/umd/popper.min.jsp"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/jsp/bootstrap.min.jsp"></script>
+<style type="text/css">
+    .bs-example{
+    	margin: 20px;
+    }
+</style>
 </head>
 
 <body>
-    <center>
-    <H1>Ω∫≈∏¿œ</H1>
 
-    <div>
-    <table border="1" bgcolor="lightgray" >
+
+
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+  <a class="navbar-brand" href="#"></a> 
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+  
+
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbars">
+
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="#">Ïä§ÌÉÄÏùº <span class="sr-only">(current)</span></a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="#">Î∞úÏ£º</a>
+              
+      </li>
+
+    </ul>
+
+   
+
+  </div>
+
+</nav>
+
+
+
+    <center>
+   <br> <br> <br>
+
+    <div class ="row">
+       <div class ="col-md-12">
+         
+    <table class ="table"  >
         <tr>
-            <td width="100">Ω∫≈∏¿œ </td>
+            <td width="100">Ïä§ÌÉÄÏùº </td>
             <td width="450">
                 <form action="stylecheck.jsp" method="get">
                      <input type="text" name="style"></input>
-                    <input type="submit" value="Ω∫≈∏¿œ µÓ∑œ"> </input>
+                    <input type="submit" value="Ïä§ÌÉÄÏùº Îì±Î°ù"> </input>
                 </form>          
             </td>
         </tr>
       
         <tr>
             <tr>
-            <td width="100">¿⁄¿Á ∏ÆΩ∫∆Æ</td>
+            <td width="100">ÏûêÏû¨ Î¶¨Ïä§Ìä∏</td>
             <td width="450">
                 <form action="material.jsp" method="get">
                     <input type="text" name="material"></input>
-                    <input type="submit" value="¿⁄¿Á ∏ÆΩ∫∆Æ µÓ∑œ"> </input>
+                    <input type="submit" value="ÏûêÏû¨ Î¶¨Ïä§Ìä∏ Îì±Î°ù"> </input>
                 </form>          
             </td>
         </tr>
         <tr>
           <tr>
-            <td width="120">Ω∫≈∏¿œ∫∞ ¿⁄¿Á</td>
+            <td width="120">Ïä§ÌÉÄÏùºÎ≥Ñ ÏûêÏû¨</td>
             <td width="450">
-                <form action="stylematerial.jsp" method="get">
+               
                     <input type="text" name="stylematerial"></input>
-                    <input type="submit" value="Ω∫≈∏¿œ∫∞ ¿⁄¿Á µÓ∑œ"> </input>
+                  
                 </form>          
             </td>
         </tr>
               
         <tr>
-            <td>¿⁄¿Á πﬂ¡÷</td>
+            <td>ÏûêÏû¨ Î∞úÏ£º</td>
             <td>
             <form action="order.jsp" method="get">
                 <input type="text" name="sendmaterial"></input>
-                <input type="submit" value="πﬂ¡÷ »Æ¿Œ"> </input>
+                <input type="submit" value="Î∞úÏ£º ÌôïÏù∏"> </input>
             </td>
         </tr>
        
@@ -57,7 +113,7 @@
        
       
         <tr>
-            <td>∞≈∑°√≥</td>
+            <td>Í±∞ÎûòÏ≤ò</td>
             <td>
                 <input type="text" name="cowork"></input>
             </td>
@@ -77,25 +133,164 @@
        
   
         <tr>
-            <td>∆ƒ¿œ</td>
+            <td>ÌååÏùº</td>
             <td>
                 <input type="file" />
             </td>
         </tr>
       
-       
-    </table>
+         </table>
+ 
+     <tr>
+                                    <br> <br><br>
+                                    
+         </tr>
+                   <tr>
+                <table class = "table table-striped table-condensed">
+                 
+                
+                 <td> no   </td>                 
+                  <td><input type = "checkbox"> </td>
+                       <td> Ïä§ÌÉÄÏùºÎ≤àÌò∏ </td>
+                      <td>ÏûêÏû¨ÏΩîÎìú </td>
+                      <td> Ïä§ÌÉÄÏùºÎ™Ö </td>
+                      <td> buyer </td>
+                      <td> Ïò§ÎçîÏùº</td>
+                      <td> ÎÇ©Í∏∞Ïùº  </td>
+                      <td> ÏãúÏ¶å </td>
+                      <td> Ïä§ÌÉÄÏùºÏàòÎüâ </td>
+                      <td> Ïä§ÌÉÄÏùºÎã®Í∞Ä </td>
+                       <td> size </td>
+                       <td> color </td>
+                       <td> ÏûêÏû¨Îã®ÏúÑ </td>
+                       <td> ÏûêÏû¨Îã®Í∞Ä </td>
+                       <td> ÏûëÏóÖÏû• </td>
+                        <td> ÏûëÏÑ±Ïûê </td>
+                        <td> ÏûëÏÑ±Ïùº </td>
+                       <td> Î∞úÏ£ºÎ≤àÌò∏ </td>
+                       <td> Î∞úÏ£ºÏàòÎüâ </td>
+                       <td> Î∞úÏ£ºÏùº </td>
+                       <td> Î∞úÏ£ºÏûê </td>
+                                 </tr>
+                                 <tr>
+                        <td> 1 </td>
+                   <td> <input type = "checkbox"> </td>
+                   <td> kmm19307</td>
+                   <td> dd20 </td>
+                    <td> slica gel </td>
+                    <td>  </td>
+                    <td> </td>
+                    <td>  </td>
+                     <td></td>
+                      <td>  </td>
+                       <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                      
+
+
+                          </tr>
+                      <tr>
+                                 <td> 2</td>
+                     <td> <input type = "checkbox"> </td>
+                            <td> kmm19307</td>
+                                   <td> dd20 </td>
+                             <td> slica gel </td>
+                          <td>  </td>
+                         <td>  </td>
+                       <td>  </td>
+                         <td>  </td>
+                       <td>  </td>
+                       <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        
+ 
+                        </tr>
+                          <tr>
+                          <td> 3 </td>
+                       <td> <input type = "checkbox"> </td>
+                       <td> kmm19307</td>
+                       <td> dd20 </td>
+                       <td> slica gel </td>
+                       <td>  </td>
+                       <td>  </td>
+                            <td> </td>
+                       <td>  </td>
+                       <td>  </td>
+                       <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                       
+              
+                                  </tr>
+                                         <tr>
+                                <td> 4 </td>
+                         <td> <input type = "checkbox"> </td>
+                         <td> kmm19307</td>
+                         <td> dd20 </td>
+                           <td> slica gel </td>
+                        <td>  </td>
+                        <td> </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td></td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                     
+                                
+                           
+                                                                            
+                                      </tr>
   
-   
+        <input type="submit" value="Í≤ÄÏÉâ"> </input>&nbsp;&nbsp;
+        <input type="reset" name="reset" value="Ï¥àÍ∏∞Ìôî"></input>&nbsp;&nbsp;
+        <input type="button" name="cancel" value="Ï∑®ÏÜå" onClick="alert('Ï∑®ÏÜå Î≤ÑÌäºÏûÖÎãàÎã§.')"> </input> <br><br>
         
-       <form action="after.html" method="get">
-        <input type="submit" value="∞·∞˙"> </input>
-        <input type="reset" name="reset" value="√ ±‚»≠"></input>
-        <input type="button" name="cancel" value="√Îº“" onClick="alert('√Îº“ πˆ∆∞¿‘¥œ¥Ÿ.')"> </input>
+       
+              </table>    
     </form>
    
-    </div>
+  
+    </div> </div></div>
     </center>
-
+     
 </body>
 </html>
